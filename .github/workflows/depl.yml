@@ -1,8 +1,8 @@
 name: ludoteca-app
-  on:
-    push:
-      branches:
-        - "main"
+on:
+  push:
+    branches:
+      - "main"
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
